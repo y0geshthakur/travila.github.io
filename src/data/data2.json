@@ -1,0 +1,723 @@
+{
+    "filters": {
+        "tours": [
+            {
+                "name": "Location",
+                "type": "dropdown",
+                "options": [
+                    "Hyderabad, India",
+                    "Goa, India",
+                    "Shimla, India",
+                    "Rajasthan, India",
+                    "Delhi, India",
+                    "Jim Corbett, India",
+                    "Manali, India",
+                    "Varanasi, India",
+                    "Kerala, India",
+                    "Mumbai, India"
+                ],
+                "icon": "<svg width='12' height='17' viewBox='0 0 12 17' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M5.99968 0.219971C2.80452 0.219971 0.205078 2.81941 0.205078 6.01453C0.205078 9.97978 5.39068 15.801 5.61146 16.0469C5.81883 16.2779 6.1809 16.2775 6.38789 16.0469C6.60868 15.801 11.7943 9.97978 11.7943 6.01453C11.7942 2.81941 9.19476 0.219971 5.99968 0.219971ZM5.99968 8.92994C4.39211 8.92994 3.0843 7.62209 3.0843 6.01453C3.0843 4.40697 4.39214 3.09916 5.99968 3.09916C7.60721 3.09916 8.91506 4.407 8.91506 6.01456C8.91506 7.62213 7.60721 8.92994 5.99968 8.92994Z' fill='#D6D7D8'/></svg>"
+            },
+            {
+                "name": "From",
+                "type": "date",
+                "icon": "<svg width='17' height='17' viewBox='0 0 17 17' fill='none' xmlns='http://www.w3.org/2000/svg'><g clip-path='url(#clip0_1_6513)'><mask id='mask0_1_6513' style='mask-type:luminance' maskUnits='userSpaceOnUse' x='0' y='0' width='17' height='17'><path d='M16.7998 0.219971H0.799805V16.22H16.7998V0.219971Z' fill='white'/></mask><g mask='url(#mask0_1_6513)'><path d='M15.1998 1.81997H14.3998V1.01997C14.3998 0.539971 14.0798 0.219971 13.5998 0.219971C13.1198 0.219971 12.7998 0.539971 12.7998 1.01997V1.81997H4.7998V1.01997C4.7998 0.539971 4.4798 0.219971 3.9998 0.219971C3.5198 0.219971 3.1998 0.539971 3.1998 1.01997V1.81997H1.5998C1.1998 1.81997 0.799805 2.13997 0.799805 2.61997V13.82C0.799805 14.3 1.1998 14.62 1.5998 14.62H6.4798C5.9198 13.66 5.5998 12.54 5.5998 11.42C5.5998 7.89997 8.4798 5.01997 11.9998 5.01997C13.5198 5.01997 14.8798 5.57997 15.9998 6.45997V2.61997C15.9998 2.21997 15.5998 1.81997 15.1998 1.81997Z' fill='#D6D7D8'/><path d='M12.0002 6.61987C9.36019 6.61987 7.2002 8.77987 7.2002 11.4199C7.2002 14.0599 9.36019 16.2199 12.0002 16.2199C14.6402 16.2199 16.8002 14.0599 16.8002 11.4199C16.8002 8.77987 14.6402 6.61987 12.0002 6.61987ZM13.6002 12.2199H12.0002C11.5202 12.2199 11.2002 11.8999 11.2002 11.4199V9.01987C11.2002 8.53987 11.5202 8.21987 12.0002 8.21987C12.4802 8.21987 12.8002 8.53987 12.8002 9.01987V10.6199H13.6002C14.0802 10.6199 14.4002 10.9399 14.4002 11.4199C14.4002 11.8999 14.0802 12.2199 13.6002 12.2199Z' fill='#D6D7D8'/></g></g><defs><clipPath id='clip0_1_6513'><rect width='16' height='16' fill='white' transform='translate(0.799805 0.219971)'/></clipPath></defs></svg>"
+            },
+            {
+                "name": "To",
+                "type": "date",
+                "icon": "<svg width='17' height='17' viewBox='0 0 17 17' fill='none' xmlns='http://www.w3.org/2000/svg'><g clip-path='url(#clip0_1_6513)'><mask id='mask0_1_6513' style='mask-type:luminance' maskUnits='userSpaceOnUse' x='0' y='0' width='17' height='17'><path d='M16.7998 0.219971H0.799805V16.22H16.7998V0.219971Z' fill='white'/></mask><g mask='url(#mask0_1_6513)'><path d='M15.1998 1.81997H14.3998V1.01997C14.3998 0.539971 14.0798 0.219971 13.5998 0.219971C13.1198 0.219971 12.7998 0.539971 12.7998 1.01997V1.81997H4.7998V1.01997C4.7998 0.539971 4.4798 0.219971 3.9998 0.219971C3.5198 0.219971 3.1998 0.539971 3.1998 1.01997V1.81997H1.5998C1.1998 1.81997 0.799805 2.13997 0.799805 2.61997V13.82C0.799805 14.3 1.1998 14.62 1.5998 14.62H6.4798C5.9198 13.66 5.5998 12.54 5.5998 11.42C5.5998 7.89997 8.4798 5.01997 11.9998 5.01997C13.5198 5.01997 14.8798 5.57997 15.9998 6.45997V2.61997C15.9998 2.21997 15.5998 1.81997 15.1998 1.81997Z' fill='#D6D7D8'/><path d='M12.0002 6.61987C9.36019 6.61987 7.2002 8.77987 7.2002 11.4199C7.2002 14.0599 9.36019 16.2199 12.0002 16.2199C14.6402 16.2199 16.8002 14.0599 16.8002 11.4199C16.8002 8.77987 14.6402 6.61987 12.0002 6.61987ZM13.6002 12.2199H12.0002C11.5202 12.2199 11.2002 11.8999 11.2002 11.4199V9.01987C11.2002 8.53987 11.5202 8.21987 12.0002 8.21987C12.4802 8.21987 12.8002 8.53987 12.8002 9.01987V10.6199H13.6002C14.0802 10.6199 14.4002 10.9399 14.4002 11.4199C14.4002 11.8999 14.0802 12.2199 13.6002 12.2199Z' fill='#D6D7D8'/></g></g><defs><clipPath id='clip0_1_6513'><rect width='16' height='16' fill='white' transform='translate(0.799805 0.219971)'/></clipPath></defs></svg>"
+            },
+            {
+                "name": "Guests",
+                "type": "dropdown",
+                "options": [
+                    "2 Adults, 1 Child",
+                    "2 Adults, 2 Children",
+                    "3 Adults, 1 Child",
+                    "3 Adults, 2 Children",
+                    "4 Adults, 2 Children"
+                ],
+                "icon": "<svg width='17' height='17' viewBox='0 0 17 17' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M5.2233 4.88664C5.2233 3.14064 6.64397 1.71997 8.38997 1.71997C10.136 1.71997 11.5566 3.14064 11.5566 4.88664C11.5566 6.63264 10.136 8.0533 8.38997 8.0533C6.64397 8.0533 5.2233 6.63264 5.2233 4.88664ZM10.39 9.0533H6.38997C4.27664 9.0533 2.55664 10.7733 2.55664 12.8867C2.55664 13.898 3.37864 14.72 4.38997 14.72H12.39C13.4013 14.72 14.2233 13.898 14.2233 12.8867C14.2233 10.7733 12.5033 9.0533 10.39 9.0533Z' fill='#D6D7D8'/></svg>"
+            }
+        ],
+        "hotels": [
+            {
+                "name": "Location",
+                "type": "dropdown",
+                "options": [
+                    "New York, USA",
+                    "Goa, India",
+                    "Shimla, India",
+                    "Rajasthan, India",
+                    "Delhi, India",
+                    "Jim Corbett, India",
+                    "Manali, India",
+                    "Varanasi, India",
+                    "Kerala, India",
+                    "Mumbai, India"
+                ],
+                "icon": "<svg width='12' height='17' viewBox='0 0 12 17' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M5.99968 0.219971C2.80452 0.219971 0.205078 2.81941 0.205078 6.01453C0.205078 9.97978 5.39068 15.801 5.61146 16.0469C5.81883 16.2779 6.1809 16.2775 6.38789 16.0469C6.60868 15.801 11.7943 9.97978 11.7943 6.01453C11.7942 2.81941 9.19476 0.219971 5.99968 0.219971ZM5.99968 8.92994C4.39211 8.92994 3.0843 7.62209 3.0843 6.01453C3.0843 4.40697 4.39214 3.09916 5.99968 3.09916C7.60721 3.09916 8.91506 4.407 8.91506 6.01456C8.91506 7.62213 7.60721 8.92994 5.99968 8.92994Z' fill='#D6D7D8'/></svg>"
+            },
+            {
+                "name": "Check-In",
+                "type": "date",
+                "icon": "<svg width='17' height='17' viewBox='0 0 17 17' fill='none' xmlns='http://www.w3.org/2000/svg'><g clip-path='url(#clip0_1_6513)'><mask id='mask0_1_6513' style='mask-type:luminance' maskUnits='userSpaceOnUse' x='0' y='0' width='17' height='17'><path d='M16.7998 0.219971H0.799805V16.22H16.7998V0.219971Z' fill='white'/></mask><g mask='url(#mask0_1_6513)'><path d='M15.1998 1.81997H14.3998V1.01997C14.3998 0.539971 14.0798 0.219971 13.5998 0.219971C13.1198 0.219971 12.7998 0.539971 12.7998 1.01997V1.81997H4.7998V1.01997C4.7998 0.539971 4.4798 0.219971 3.9998 0.219971C3.5198 0.219971 3.1998 0.539971 3.1998 1.01997V1.81997H1.5998C1.1998 1.81997 0.799805 2.13997 0.799805 2.61997V13.82C0.799805 14.3 1.1998 14.62 1.5998 14.62H6.4798C5.9198 13.66 5.5998 12.54 5.5998 11.42C5.5998 7.89997 8.4798 5.01997 11.9998 5.01997C13.5198 5.01997 14.8798 5.57997 15.9998 6.45997V2.61997C15.9998 2.21997 15.5998 1.81997 15.1998 1.81997Z' fill='#D6D7D8'/><path d='M12.0002 6.61987C9.36019 6.61987 7.2002 8.77987 7.2002 11.4199C7.2002 14.0599 9.36019 16.2199 12.0002 16.2199C14.6402 16.2199 16.8002 14.0599 16.8002 11.4199C16.8002 8.77987 14.6402 6.61987 12.0002 6.61987ZM13.6002 12.2199H12.0002C11.5202 12.2199 11.2002 11.8999 11.2002 11.4199V9.01987C11.2002 8.53987 11.5202 8.21987 12.0002 8.21987C12.4802 8.21987 12.8002 8.53987 12.8002 9.01987V10.6199H13.6002C14.0802 10.6199 14.4002 10.9399 14.4002 11.4199C14.4002 11.8999 14.0802 12.2199 13.6002 12.2199Z' fill='#D6D7D8'/></g></g><defs><clipPath id='clip0_1_6513'><rect width='16' height='16' fill='white' transform='translate(0.799805 0.219971)'/></clipPath></defs></svg>"
+            },
+            {
+                "name": "Check-Out",
+                "type": "date",
+                "icon": "<svg width='17' height='17' viewBox='0 0 17 17' fill='none' xmlns='http://www.w3.org/2000/svg'><g clip-path='url(#clip0_1_6513)'><mask id='mask0_1_6513' style='mask-type:luminance' maskUnits='userSpaceOnUse' x='0' y='0' width='17' height='17'><path d='M16.7998 0.219971H0.799805V16.22H16.7998V0.219971Z' fill='white'/></mask><g mask='url(#mask0_1_6513)'><path d='M15.1998 1.81997H14.3998V1.01997C14.3998 0.539971 14.0798 0.219971 13.5998 0.219971C13.1198 0.219971 12.7998 0.539971 12.7998 1.01997V1.81997H4.7998V1.01997C4.7998 0.539971 4.4798 0.219971 3.9998 0.219971C3.5198 0.219971 3.1998 0.539971 3.1998 1.01997V1.81997H1.5998C1.1998 1.81997 0.799805 2.13997 0.799805 2.61997V13.82C0.799805 14.3 1.1998 14.62 1.5998 14.62H6.4798C5.9198 13.66 5.5998 12.54 5.5998 11.42C5.5998 7.89997 8.4798 5.01997 11.9998 5.01997C13.5198 5.01997 14.8798 5.57997 15.9998 6.45997V2.61997C15.9998 2.21997 15.5998 1.81997 15.1998 1.81997Z' fill='#D6D7D8'/><path d='M12.0002 6.61987C9.36019 6.61987 7.2002 8.77987 7.2002 11.4199C7.2002 14.0599 9.36019 16.2199 12.0002 16.2199C14.6402 16.2199 16.8002 14.0599 16.8002 11.4199C16.8002 8.77987 14.6402 6.61987 12.0002 6.61987ZM13.6002 12.2199H12.0002C11.5202 12.2199 11.2002 11.8999 11.2002 11.4199V9.01987C11.2002 8.53987 11.5202 8.21987 12.0002 8.21987C12.4802 8.21987 12.8002 8.53987 12.8002 9.01987V10.6199H13.6002C14.0802 10.6199 14.4002 10.9399 14.4002 11.4199C14.4002 11.8999 14.0802 12.2199 13.6002 12.2199Z' fill='#D6D7D8'/></g></g><defs><clipPath id='clip0_1_6513'><rect width='16' height='16' fill='white' transform='translate(0.799805 0.219971)'/></clipPath></defs></svg>"
+            },
+            {
+                "name": "Guests",
+                "type": "dropdown",
+                "options": [
+                    "2 Adults, 1 Child",
+                    "2 Adults, 2 Children",
+                    "3 Adults, 1 Child",
+                    "3 Adults, 2 Children",
+                    "4 Adults, 2 Children"
+                ],
+                "icon": "<svg width='17' height='17' viewBox='0 0 17 17' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M5.2233 4.88664C5.2233 3.14064 6.64397 1.71997 8.38997 1.71997C10.136 1.71997 11.5566 3.14064 11.5566 4.88664C11.5566 6.63264 10.136 8.0533 8.38997 8.0533C6.64397 8.0533 5.2233 6.63264 5.2233 4.88664ZM10.39 9.0533H6.38997C4.27664 9.0533 2.55664 10.7733 2.55664 12.8867C2.55664 13.898 3.37864 14.72 4.38997 14.72H12.39C13.4013 14.72 14.2233 13.898 14.2233 12.8867C14.2233 10.7733 12.5033 9.0533 10.39 9.0533Z' fill='#D6D7D8'/></svg>"
+            }
+        ],
+        "rental": [
+            {
+                "name": "Location",
+                "type": "dropdown",
+                "options": [
+                    "Hyderabad, India",
+                    "Delhi, India",
+                    "Mumbai, India",
+                    "Goa, India",
+                    "Rajasthan, India",
+                    "Shimla, India",
+                    "Manali, India",
+                    "Varanasi, India",
+                    "Kerala, India"
+                ],
+                "icon": "<svg width='12' height='17' viewBox='0 0 12 17' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M5.99968 0.219971C2.80452 0.219971 0.205078 2.81941 0.205078 6.01453C0.205078 9.97978 5.39068 15.801 5.61146 16.0469C5.81883 16.2779 6.1809 16.2775 6.38789 16.0469C6.60868 15.801 11.7943 9.97978 11.7943 6.01453C11.7942 2.81941 9.19476 0.219971 5.99968 0.219971ZM5.99968 8.92994C4.39211 8.92994 3.0843 7.62209 3.0843 6.01453C3.0843 4.40697 4.39214 3.09916 5.99968 3.09916C7.60721 3.09916 8.91506 4.407 8.91506 6.01456C8.91506 7.62213 7.60721 8.92994 5.99968 8.92994Z' fill='#D6D7D8'/></svg>"
+            },
+            {
+                "name": "From",
+                "type": "date",
+                "icon": "<svg width='17' height='17' viewBox='0 0 17 17' fill='none' xmlns='http://www.w3.org/2000/svg'><g clip-path='url(#clip0_1_6513)'><mask id='mask0_1_6513' style='mask-type:luminance' maskUnits='userSpaceOnUse' x='0' y='0' width='17' height='17'><path d='M16.7998 0.219971H0.799805V16.22H16.7998V0.219971Z' fill='white'/></mask><g mask='url(#mask0_1_6513)'><path d='M15.1998 1.81997H14.3998V1.01997C14.3998 0.539971 14.0798 0.219971 13.5998 0.219971C13.1198 0.219971 12.7998 0.539971 12.7998 1.01997V1.81997H4.7998V1.01997C4.7998 0.539971 4.4798 0.219971 3.9998 0.219971C3.5198 0.219971 3.1998 0.539971 3.1998 1.01997V1.81997H1.5998C1.1998 1.81997 0.799805 2.13997 0.799805 2.61997V13.82C0.799805 14.3 1.1998 14.62 1.5998 14.62H6.4798C5.9198 13.66 5.5998 12.54 5.5998 11.42C5.5998 7.89997 8.4798 5.01997 11.9998 5.01997C13.5198 5.01997 14.8798 5.57997 15.9998 6.45997V2.61997C15.9998 2.21997 15.5998 1.81997 15.1998 1.81997Z' fill='#D6D7D8'/><path d='M12.0002 6.61987C9.36019 6.61987 7.2002 8.77987 7.2002 11.4199C7.2002 14.0599 9.36019 16.2199 12.0002 16.2199C14.6402 16.2199 16.8002 14.0599 16.8002 11.4199C16.8002 8.77987 14.6402 6.61987 12.0002 6.61987ZM13.6002 12.2199H12.0002C11.5202 12.2199 11.2002 11.8999 11.2002 11.4199V9.01987C11.2002 8.53987 11.5202 8.21987 12.0002 8.21987C12.4802 8.21987 12.8002 8.53987 12.8002 9.01987V10.6199H13.6002C14.0802 10.6199 14.4002 10.9399 14.4002 11.4199C14.4002 11.8999 14.0802 12.2199 13.6002 12.2199Z' fill='#D6D7D8'/></g></g><defs><clipPath id='clip0_1_6513'><rect width='16' height='16' fill='white' transform='translate(0.799805 0.219971)'/></clipPath></defs></svg>"
+            },
+            {
+                "name": "To",
+                "type": "date",
+                "icon": "<svg width='17' height='17' viewBox='0 0 17 17' fill='none' xmlns='http://www.w3.org/2000/svg'><g clip-path='url(#clip0_1_6513)'><mask id='mask0_1_6513' style='mask-type:luminance' maskUnits='userSpaceOnUse' x='0' y='0' width='17' height='17'><path d='M16.7998 0.219971H0.799805V16.22H16.7998V0.219971Z' fill='white'/></mask><g mask='url(#mask0_1_6513)'><path d='M15.1998 1.81997H14.3998V1.01997C14.3998 0.539971 14.0798 0.219971 13.5998 0.219971C13.1198 0.219971 12.7998 0.539971 12.7998 1.01997V1.81997H4.7998V1.01997C4.7998 0.539971 4.4798 0.219971 3.9998 0.219971C3.5198 0.219971 3.1998 0.539971 3.1998 1.01997V1.81997H1.5998C1.1998 1.81997 0.799805 2.13997 0.799805 2.61997V13.82C0.799805 14.3 1.1998 14.62 1.5998 14.62H6.4798C5.9198 13.66 5.5998 12.54 5.5998 11.42C5.5998 7.89997 8.4798 5.01997 11.9998 5.01997C13.5198 5.01997 14.8798 5.57997 15.9998 6.45997V2.61997C15.9998 2.21997 15.5998 1.81997 15.1998 1.81997Z' fill='#D6D7D8'/><path d='M12.0002 6.61987C9.36019 6.61987 7.2002 8.77987 7.2002 11.4199C7.2002 14.0599 9.36019 16.2199 12.0002 16.2199C14.6402 16.2199 16.8002 14.0599 16.8002 11.4199C16.8002 8.77987 14.6402 6.61987 12.0002 6.61987ZM13.6002 12.2199H12.0002C11.5202 12.2199 11.2002 11.8999 11.2002 11.4199V9.01987C11.2002 8.53987 11.5202 8.21987 12.0002 8.21987C12.4802 8.21987 12.8002 8.53987 12.8002 9.01987V10.6199H13.6002C14.0802 10.6199 14.4002 10.9399 14.4002 11.4199C14.4002 11.8999 14.0802 12.2199 13.6002 12.2199Z' fill='#D6D7D8'/></g></g><defs><clipPath id='clip0_1_6513'><rect width='16' height='16' fill='white' transform='translate(0.799805 0.219971)'/></clipPath></defs></svg>"
+            },
+            {
+                "name": "Vehicle",
+                "type": "dropdown",
+                "options": [
+                    "Sedan",
+                    "Scooter",
+                    "SUV",
+                    "Van",
+                    "Motorcycle",
+                    "RV",
+                    "Limousine",
+                    "Convertible",
+                    "Truck",
+                    "Bus"
+                ],
+                "icon": "<svg width='12' height='17' viewBox='0 0 12 17' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M2 6.5L3.5 3.5C3.8 2.9 4.4 2.5 5 2.5H7C7.6 2.5 8.2 2.9 8.5 3.5L10 6.5C11 6.5 12 7.2 12 8.5V12.5C12 13.3 11.3 14 10.5 14H10V15C10 15.5 9.5 16 9 16H8C7.5 16 7 15.5 7 15V14H5V15C5 15.5 4.5 16 4 16H3C2.5 16 2 15.5 2 15V14H1.5C0.7 14 0 13.3 0 12.5V8.5C0 7.2 1 6.5 2 6.5ZM1.5 9V12H2V9H1.5ZM10.5 9V12H10V9H10.5Z' fill='#D6D7D8'/></svg>"
+            }
+        ],
+        "activities": [
+            {
+                "name": "Location",
+                "type": "dropdown",
+                "options": [
+                    "Mumbai, India",
+                    "Goa, India",
+                    "Manali, India",
+                    "Shimla, India",
+                    "Rajasthan, India",
+                    "Delhi, India",
+                    "Kerala, India",
+                    "Jim Corbett, India",
+                    "Varanasi, India",
+                    "Hyderabad, India"
+                ],
+                "icon": "<svg width='12' height='17' viewBox='0 0 12 17' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M5.99968 0.219971C2.80452 0.219971 0.205078 2.81941 0.205078 6.01453C0.205078 9.97978 5.39068 15.801 5.61146 16.0469C5.81883 16.2779 6.1809 16.2775 6.38789 16.0469C6.60868 15.801 11.7943 9.97978 11.7943 6.01453C11.7942 2.81941 9.19476 0.219971 5.99968 0.219971ZM5.99968 8.92994C4.39211 8.92994 3.0843 7.62209 3.0843 6.01453C3.0843 4.40697 4.39214 3.09916 5.99968 3.09916C7.60721 3.09916 8.91506 4.407 8.91506 6.01456C8.91506 7.62213 7.60721 8.92994 5.99968 8.92994Z' fill='#D6D7D8'/></svg>"
+            },
+            {
+                "name": "From",
+                "type": "date",
+                "icon": "<svg width='17' height='17' viewBox='0 0 17 17' fill='none' xmlns='http://www.w3.org/2000/svg'><g clip-path='url(#clip0_1_6513)'><mask id='mask0_1_6513' style='mask-type:luminance' maskUnits='userSpaceOnUse' x='0' y='0' width='17' height='17'><path d='M16.7998 0.219971H0.799805V16.22H16.7998V0.219971Z' fill='white'/></mask><g mask='url(#mask0_1_6513)'><path d='M15.1998 1.81997H14.3998V1.01997C14.3998 0.539971 14.0798 0.219971 13.5998 0.219971C13.1198 0.219971 12.7998 0.539971 12.7998 1.01997V1.81997H4.7998V1.01997C4.7998 0.539971 4.4798 0.219971 3.9998 0.219971C3.5198 0.219971 3.1998 0.539971 3.1998 1.01997V1.81997H1.5998C1.1998 1.81997 0.799805 2.13997 0.799805 2.61997V13.82C0.799805 14.3 1.1998 14.62 1.5998 14.62H6.4798C5.9198 13.66 5.5998 12.54 5.5998 11.42C5.5998 7.89997 8.4798 5.01997 11.9998 5.01997C13.5198 5.01997 14.8798 5.57997 15.9998 6.45997V2.61997C15.9998 2.21997 15.5998 1.81997 15.1998 1.81997Z' fill='#D6D7D8'/><path d='M12.0002 6.61987C9.36019 6.61987 7.2002 8.77987 7.2002 11.4199C7.2002 14.0599 9.36019 16.2199 12.0002 16.2199C14.6402 16.2199 16.8002 14.0599 16.8002 11.4199C16.8002 8.77987 14.6402 6.61987 12.0002 6.61987ZM13.6002 12.2199H12.0002C11.5202 12.2199 11.2002 11.8999 11.2002 11.4199V9.01987C11.2002 8.53987 11.5202 8.21987 12.0002 8.21987C12.4802 8.21987 12.8002 8.53987 12.8002 9.01987V10.6199H13.6002C14.0802 10.6199 14.4002 10.9399 14.4002 11.4199C14.4002 11.8999 14.0802 12.2199 13.6002 12.2199Z' fill='#D6D7D8'/></g></g><defs><clipPath id='clip0_1_6513'><rect width='16' height='16' fill='white' transform='translate(0.799805 0.219971)'/></clipPath></defs></svg>"
+            },
+            {
+                "name": "To",
+                "type": "date",
+                "icon": "<svg width='17' height='17' viewBox='0 0 17 17' fill='none' xmlns='http://www.w3.org/2000/svg'><g clip-path='url(#clip0_1_6513)'><mask id='mask0_1_6513' style='mask-type:luminance' maskUnits='userSpaceOnUse' x='0' y='0' width='17' height='17'><path d='M16.7998 0.219971H0.799805V16.22H16.7998V0.219971Z' fill='white'/></mask><g mask='url(#mask0_1_6513)'><path d='M15.1998 1.81997H14.3998V1.01997C14.3998 0.539971 14.0798 0.219971 13.5998 0.219971C13.1198 0.219971 12.7998 0.539971 12.7998 1.01997V1.81997H4.7998V1.01997C4.7998 0.539971 4.4798 0.219971 3.9998 0.219971C3.5198 0.219971 3.1998 0.539971 3.1998 1.01997V1.81997H1.5998C1.1998 1.81997 0.799805 2.13997 0.799805 2.61997V13.82C0.799805 14.3 1.1998 14.62 1.5998 14.62H6.4798C5.9198 13.66 5.5998 12.54 5.5998 11.42C5.5998 7.89997 8.4798 5.01997 11.9998 5.01997C13.5198 5.01997 14.8798 5.57997 15.9998 6.45997V2.61997C15.9998 2.21997 15.5998 1.81997 15.1998 1.81997Z' fill='#D6D7D8'/><path d='M12.0002 6.61987C9.36019 6.61987 7.2002 8.77987 7.2002 11.4199C7.2002 14.0599 9.36019 16.2199 12.0002 16.2199C14.6402 16.2199 16.8002 14.0599 16.8002 11.4199C16.8002 8.77987 14.6402 6.61987 12.0002 6.61987ZM13.6002 12.2199H12.0002C11.5202 12.2199 11.2002 11.8999 11.2002 11.4199V9.01987C11.2002 8.53987 11.5202 8.21987 12.0002 8.21987C12.4802 8.21987 12.8002 8.53987 12.8002 9.01987V10.6199H13.6002C14.0802 10.6199 14.4002 10.9399 14.4002 11.4199C14.4002 11.8999 14.0802 12.2199 13.6002 12.2199Z' fill='#D6D7D8'/></g></g><defs><clipPath id='clip0_1_6513'><rect width='16' height='16' fill='white' transform='translate(0.799805 0.219971)'/></clipPath></defs></svg>"
+            },
+            {
+                "name": "Price",
+                "type": "dropdown",
+                "options": [
+                    "0-10",
+                    "10-50",
+                    "50-100",
+                    "100-500",
+                    "500+"
+                ],
+                "icon": "<svg width='12' height='17' viewBox='0 0 12 17' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M1 6.5V2.5C1 1.7 1.7 1 2.5 1H6.5C6.8 1 7.1 1.1 7.3 1.3L11.3 5.3C11.7 5.7 11.7 6.3 11.3 6.7L6.7 11.3C6.3 11.7 5.7 11.7 5.3 11.3L1.3 7.3C1.1 7.1 1 6.8 1 6.5ZM4 4C4 3.4 3.6 3 3 3C2.4 3 2 3.4 2 4C2 4.6 2.4 5 3 5C3.6 5 4 4.6 4 4Z' fill='#D6D7D8'/></svg>"
+            }
+        ],
+        "tickets": []
+    },
+    "tours": [
+        {
+            "id": 1,
+            "name": "City Tour",
+            "image": "../../resources/temp.png",
+            "location": "Hyderabad, India",
+            "from": "2025-2-22",
+            "to": "2025-2-25",
+            "price": "200",
+            "guests": {
+                "adults": 2,
+                "children": 2
+            }
+        },
+        {
+            "id": 2,
+            "name": "Beach Tour",
+            "image": "../../resources/temp.png",
+            "location": "Goa, India",
+            "from": "2025-3-10",
+            "to": "2025-3-15",
+            "price": "500",
+            "guests": {
+                "adults": 4,
+                "children": 2
+            }
+        },
+        {
+            "id": 3,
+            "name": "Mountain Tour",
+            "image": "../../resources/temp.png",
+            "location": "Shimla, India",
+            "from": "2025-4-5",
+            "to": "2025-4-10",
+            "price": "800",
+            "guests": {
+                "adults": 3,
+                "children": 1
+            }
+        },
+        {
+            "id": 4,
+            "name": "Desert Tour",
+            "image": "../../resources/temp.png",
+            "location": "Rajasthan, India",
+            "from": "2025-5-15",
+            "to": "2025-5-20",
+            "price": "700",
+            "guests": {
+                "adults": 2,
+                "children": 1
+            }
+        },
+        {
+            "id": 5,
+            "name": "Historical Tour",
+            "image": "../../resources/temp.png",
+            "location": "Delhi, India",
+            "from": "2025-6-25",
+            "to": "2025-6-30",
+            "price": "600",
+            "guests": {
+                "adults": 3,
+                "children": 2
+            }
+        },
+        {
+            "id": 6,
+            "name": "Wildlife Tour",
+            "image": "../../resources/temp.png",
+            "location": "Jim Corbett, India",
+            "from": "2025-7-5",
+            "to": "2025-7-10",
+            "price": "900",
+            "guests": {
+                "adults": 4,
+                "children": 2
+            }
+        },
+        {
+            "id": 7,
+            "name": "Adventure Tour",
+            "image": "../../resources/temp.png",
+            "location": "Manali, India",
+            "from": "2025-8-15",
+            "to": "2025-8-20",
+            "price": "1000",
+            "guests": {
+                "adults": 3,
+                "children": 1
+            }
+        },
+        {
+            "id": 8,
+            "name": "Religious Tour",
+            "image": "../../resources/temp.png",
+            "location": "Varanasi, India",
+            "from": "2025-9-25",
+            "to": "2025-9-30",
+            "price": "400",
+            "guests": {
+                "adults": 2,
+                "children": 1
+            }
+        },
+        {
+            "id": 9,
+            "name": "Cruise Tour",
+            "image": "../../resources/temp.png",
+            "location": "Kerala, India",
+            "from": "2025-10-5",
+            "to": "2025-10-10",
+            "price": "1200",
+            "guests": {
+                "adults": 4,
+                "children": 2
+            }
+        },
+        {
+            "id": 10,
+            "name": "Luxury Tour",
+            "image": "../../resources/temp.png",
+            "location": "Mumbai, India",
+            "from": "2025-11-15",
+            "to": "2025-11-20",
+            "price": "1500",
+            "guests": {
+                "adults": 3,
+                "children": 1
+            }
+        }
+    ],
+    "hotels": [
+        {
+            "id": 1,
+            "name": "Luxury Hotel",
+            "image": "../../resources/temp.png",
+            "location": "New York, USA",
+            "checkIn": "2025-2-22",
+            "checkOut": "2025-2-25",
+            "price": "$200/night",
+            "guests": {
+                "adults": 2,
+                "children": 2
+            },
+            "rating": "4.5"
+        },
+        {
+            "id": 2,
+            "name": "Beach Resort",
+            "image": "../../resources/temp.png",
+            "location": "Goa, India",
+            "checkIn": "2025-3-10",
+            "checkOut": "2025-3-15",
+            "price": "$500/night",
+            "guests": {
+                "adults": 4,
+                "children": 2
+            },
+            "rating": "4.8"
+        },
+        {
+            "id": 3,
+            "name": "Mountain Lodge",
+            "image": "../../resources/temp.png",
+            "location": "Shimla, India",
+            "checkIn": "2025-4-5",
+            "checkOut": "2025-4-10",
+            "price": "$800/night",
+            "guests": {
+                "adults": 3,
+                "children": 1
+            },
+            "rating": "4.7"
+        },
+        {
+            "id": 4,
+            "name": "Desert Camp",
+            "image": "../../resources/temp.png",
+            "location": "Rajasthan, India",
+            "checkIn": "2025-5-15",
+            "checkOut": "2025-5-20",
+            "price": "$700/night",
+            "guests": {
+                "adults": 2,
+                "children": 1
+            },
+            "rating": "4.6"
+        },
+        {
+            "id": 5,
+            "name": "Historical Inn",
+            "image": "../../resources/temp.png",
+            "location": "Delhi, India",
+            "checkIn": "2025-6-25",
+            "checkOut": "2025-6-30",
+            "price": "$600/night",
+            "guests": {
+                "adults": 3,
+                "children": 2
+            },
+            "rating": "4.4"
+        },
+        {
+            "id": 6,
+            "name": "Wildlife Resort",
+            "image": "../../resources/temp.png",
+            "location": "Jim Corbett, India",
+            "checkIn": "2025-7-5",
+            "checkOut": "2025-7-10",
+            "price": "$900/night",
+            "guests": {
+                "adults": 4,
+                "children": 2
+            },
+            "rating": "4.9"
+        },
+        {
+            "id": 7,
+            "name": "Adventure Camp",
+            "image": "../../resources/temp.png",
+            "location": "Manali, India",
+            "checkIn": "2025-8-15",
+            "checkOut": "2025-8-20",
+            "price": "$1000/night",
+            "guests": {
+                "adults": 3,
+                "children": 1
+            },
+            "rating": "4.3"
+        },
+        {
+            "id": 8,
+            "name": "Religious Lodge",
+            "image": "../../resources/temp.png",
+            "location": "Varanasi, India",
+            "checkIn": "2025-9-25",
+            "checkOut": "2025-9-30",
+            "price": "$400/night",
+            "guests": {
+                "adults": 2,
+                "children": 1
+            },
+            "rating": "4.2"
+        },
+        {
+            "id": 9,
+            "name": "Cruise Ship",
+            "image": "../../resources/temp.png",
+            "location": "Kerala, India",
+            "checkIn": "2025-10-5",
+            "checkOut": "2025-10-10",
+            "price": "$1200/night",
+            "guests": {
+                "adults": 4,
+                "children": 2
+            },
+            "rating": "4.6"
+        },
+        {
+            "id": 10,
+            "name": "Luxury Villa",
+            "image": "../../resources/temp.png",
+            "location": "Mumbai, India",
+            "checkIn": "2025-11-15",
+            "checkOut": "2025-11-20",
+            "price": "$1500/night",
+            "guests": {
+                "adults": 3,
+                "children": 1
+            },
+            "rating": "4.7"
+        }
+    ],
+    "tickets": [
+        {
+            "id": 1,
+            "event": "Concert",
+            "image": "../../resources/temp.png",
+            "location": "Hyderabad, India",
+            "date": "2023-12-15",
+            "price": "$100"
+        },
+        {
+            "id": 2,
+            "event": "Sports Event",
+            "image": "../../resources/temp.png",
+            "location": "New York, USA",
+            "date": "2023-12-20",
+            "price": "$150"
+        },
+        {
+            "id": 3,
+            "event": "Movie",
+            "image": "../../resources/temp.png",
+            "location": "Los Angeles, USA",
+            "date": "2023-12-25",
+            "price": "$50"
+        },
+        {
+            "id": 4,
+            "event": "Theatre",
+            "image": "../../resources/temp.png",
+            "location": "London, UK",
+            "date": "2023-12-30",
+            "price": "$75"
+        },
+        {
+            "id": 5,
+            "event": "Exhibition",
+            "image": "../../resources/temp.png",
+            "location": "Paris, France",
+            "date": "2024-1-5",
+            "price": "$25"
+        },
+        {
+            "id": 6,
+            "event": "Dance Show",
+            "image": "../../resources/temp.png",
+            "location": "Sydney, Australia",
+            "date": "2024-1-10",
+            "price": "$80"
+        },
+        {
+            "id": 7,
+            "event": "Comedy Show",
+            "image": "../../resources/temp.png",
+            "location": "Las Vegas, USA",
+            "date": "2024-1-15",
+            "price": "$70"
+        },
+        {
+            "id": 8,
+            "event": "Magic Show",
+            "image": "../../resources/temp.png",
+            "location": "Dubai, UAE",
+            "date": "2024-1-20",
+            "price": "$90"
+        },
+        {
+            "id": 9,
+            "event": "Fashion Show",
+            "image": "../../resources/temp.png",
+            "location": "Milan, Italy",
+            "date": "2024-1-25",
+            "price": "$60"
+        },
+        {
+            "id": 10,
+            "event": "Food Festival",
+            "image": "../../resources/temp.png",
+            "location": "Tokyo, Japan",
+            "date": "2024-1-30",
+            "price": "$40"
+        }
+    ],
+    "rentals": [
+        {
+            "id": 1,
+            "name": "Car",
+            "image": "../../resources/temp.png",
+            "location": "Hyderabad, India",
+            "from": "2025-2-22",
+            "to": "2025-2-25",
+            "price": "$30/day",
+            "type": "Sedan"
+        },
+        {
+            "id": 2,
+            "name": "Bike",
+            "image": "../../resources/temp.png",
+            "location": "Delhi, India",
+            "from": "2025-3-10",
+            "to": "2025-3-15",
+            "price": "$15/day",
+            "type": "Scooter"
+        },
+        {
+            "id": 3,
+            "name": "SUV",
+            "image": "../../resources/temp.png",
+            "location": "Mumbai, India",
+            "from": "2025-4-5",
+            "to": "2025-4-10",
+            "price": "$50/day",
+            "type": "SUV"
+        },
+        {
+            "id": 4,
+            "name": "Van",
+            "image": "../../resources/temp.png",
+            "location": "Goa, India",
+            "from": "2025-5-15",
+            "to": "2025-5-20",
+            "price": "$40/day",
+            "type": "Van"
+        },
+        {
+            "id": 5,
+            "name": "Motorcycle",
+            "image": "../../resources/temp.png",
+            "location": "Rajasthan, India",
+            "from": "2025-6-25",
+            "to": "2025-6-30",
+            "price": "$20/day",
+            "type": "Motorcycle"
+        },
+        {
+            "id": 6,
+            "name": "RV",
+            "image": "../../resources/temp.png",
+            "location": "Shimla, India",
+            "from": "2025-7-5",
+            "to": "2025-7-10",
+            "price": "$100/day",
+            "type": "RV"
+        },
+        {
+            "id": 7,
+            "name": "Limousine",
+            "image": "../../resources/temp.png",
+            "location": "Manali, India",
+            "from": "2025-8-15",
+            "to": "2025-8-20",
+            "price": "$200/day",
+            "type": "Limousine"
+        },
+        {
+            "id": 8,
+            "name": "Convertible",
+            "image": "../../resources/temp.png",
+            "location": "Varanasi, India",
+            "from": "2025-9-25",
+            "to": "2025-9-30",
+            "price": "$80/day",
+            "type": "Convertible"
+        },
+        {
+            "id": 9,
+            "name": "Truck",
+            "image": "../../resources/temp.png",
+            "location": "Kerala, India",
+            "from": "2025-10-5",
+            "to": "2025-10-10",
+            "price": "$60/day",
+            "type": "Truck"
+        },
+        {
+            "id": 10,
+            "name": "Bus",
+            "image": "../../resources/temp.png",
+            "location": "Mumbai, India",
+            "from": "2025-11-15",
+            "to": "2025-11-20",
+            "price": "$150/day",
+            "type": "Bus"
+        }
+    ],
+    "activities": [
+        {
+            "id": 1,
+            "name": "Hiking",
+            "image": "../../resources/temp.png",
+            "location": "Mumbai, India",
+            "from": "2025-2-22",
+            "to": "2025-2-25",
+            "price": "$40"
+        },
+        {
+            "id": 2,
+            "name": "Scuba Diving",
+            "image": "../../resources/temp.png",
+            "location": "Goa, India",
+            "from": "2025-3-10",
+            "to": "2025-3-15",
+            "price": "$100"
+        },
+        {
+            "id": 3,
+            "name": "Skiing",
+            "image": "../../resources/temp.png",
+            "location": "Manali, India",
+            "from": "2025-4-5",
+            "to": "2025-4-10",
+            "price": "$80"
+        },
+        {
+            "id": 4,
+            "name": "Paragliding",
+            "image": "../../resources/temp.png",
+            "location": "Shimla, India",
+            "from": "2025-5-15",
+            "to": "2025-5-20",
+            "price": "$60"
+        },
+        {
+            "id": 5,
+            "name": "Skydiving",
+            "image": "../../resources/temp.png",
+            "location": "Rajasthan, India",
+            "from": "2025-6-25",
+            "to": "2025-6-30",
+            "price": "$120"
+        },
+        {
+            "id": 6,
+            "name": "Bungee Jumping",
+            "image": "../../resources/temp.png",
+            "location": "Delhi, India",
+            "from": "2025-7-5",
+            "to": "2025-7-10",
+            "price": "$90"
+        },
+        {
+            "id": 7,
+            "name": "Rafting",
+            "image": "../../resources/temp.png",
+            "location": "Kerala, India",
+            "from": "2025-8-15",
+            "to": "2025-8-20",
+            "price": "$70"
+        },
+        {
+            "id": 8,
+            "name": "Camping",
+            "image": "../../resources/temp.png",
+            "location": "Jim Corbett, India",
+            "from": "2025-9-25",
+            "to": "2025-9-30",
+            "price": "$50"
+        },
+        {
+            "id": 9,
+            "name": "Safari",
+            "image": "../../resources/temp.png",
+            "location": "Varanasi, India",
+            "from": "2025-10-5",
+            "to": "2025-10-10",
+            "price": "$110"
+        },
+        {
+            "id": 10,
+            "name": "Fishing",
+            "image": "../../resources/temp.png",
+            "location": "Hyderabad, India",
+            "from": "2025-11-15",
+            "to": "2025-11-20",
+            "price": "$30"
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Travila",
+  "short_name": "Travila",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#FEFA17",
+  "description": "Your automotive travel companion",
+  "icons": [
+    {
+      "src": "../resources/logo.png",
+      "sizes": "150x150",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "../resources/logo.png",
+      "sizes": "150x150",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "../resources/ss.png",
+      "sizes": "1919x992",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Desktop Screenshot"
+    },
+    {
+      "src": "../resources/ss.png",
+      "sizes": "1919x992",
+      "type": "image/png",
+      "label": "Mobile Screenshot"
+    }
+  ]
+}
